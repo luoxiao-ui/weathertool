@@ -1,0 +1,136 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "天气"
+			}
+		},
+		
+		{
+			"path": "pages/tool/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0084f3"
+			}
+		},
+		
+		{
+			"path": "pages/tool/onewords/index",
+			"style": {
+				"navigationBarTitleText": "Hitokoto一言",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor": "#0084f3",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path": "pages/tool/honeyword/index",
+			"style": {
+				"navigationBarTitleText": "土味情话",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0084f3",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path":"pages/tool/poetry/index",
+			"style": {
+				"navigationBarTitleText":"随机诗词",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0084f3",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path":"pages/tool/dayimg/index",
+			"style": {
+				"navigationBarTitleText":"每日一图",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0084f3",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path":"pages/tool/riddle/index",
+			"style": {
+				"navigationBarTitleText":"谜语大全",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0084f3",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path":"pages/tool/novel/index",
+			"style": {
+				"navigationBarTitleText":"每日一文",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0084f3",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path":"pages/tool/rubbish/index",
+			"style": {
+				"navigationBarTitleText":"垃圾分类查询",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0084f3",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path": "pages/tool/createpoetry/index",
+			"style": {
+				"navigationBarTitleText":"藏头诗生成",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0084f3",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path": "pages/tool/QRcode/index",
+			"style": {
+				"navigationBarTitleText":"二维码生成",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor":"#0084f3",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	
+	"tabBar": {
+		"color":"#8a8a8a",
+		"selectedColor": "0084f3",
+		"borderStyle":"white",
+		"list":[
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-1.png",
+				"text": "首页"
+			},
+			
+			{
+				"pagePath": "pages/tool/index",
+				"iconPath":"static/tool.png",
+				"selectedIconPath":"static/tool-1.png",
+				"text": "发现"
+			}
+		]
+	},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "Hitokoto一言",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#0084f3",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

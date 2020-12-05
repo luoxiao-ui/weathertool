@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "藏头诗生成",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#0084f3",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

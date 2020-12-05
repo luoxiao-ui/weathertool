@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "二维码生成",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#0084f3",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

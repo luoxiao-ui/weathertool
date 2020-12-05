@@ -1,0 +1,85 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx6ed8dbb02b054caa",
+  "projectname": "luo-weather",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/tool/index",
+          "pathName": "pages/tool/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tool/rubbish/index",
+          "pathName": "pages/tool/rubbish/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tool/createpoetry/index",
+          "pathName": "pages/tool/createpoetry/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tool/QRcode/index",
+          "pathName": "pages/tool/QRcode/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

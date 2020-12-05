@@ -1,0 +1,1 @@
+<view class="container"><uni-card vue-id="63c2d765-1" title="{{novelmsg.title}}" extra="{{novelmsg.author}}" bind:__l="__l" vue-slots="{{['default']}}"><view class="_p"><rich-text nodes="{{novelmsg.content}}"></rich-text></view></uni-card></view>
