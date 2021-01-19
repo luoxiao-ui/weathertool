@@ -62,4 +62,10 @@
   right: 40rpx;
   bottom: 60rpx;
 }
+.refreshbtnclick.data-v-77c14c0a {
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
 

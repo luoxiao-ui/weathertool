@@ -3,12 +3,13 @@
 		<uni-card v-for="(item,index) in oneword" :key="index"
 		          :title="`来源：${item.from}`"
 		          :extra="`类型：${item.judgetype}`">
-			{{item.hitokoto || '人生就是一场旅行'}}
+			<text selectable>{{item.hitokoto || '人生就是一场旅行'}}</text>
 		</uni-card>
 		<uni-icons type="loop" 
 		           color="#0084f3"
 				   class="refreshbtn"
 				   size="40"
+				   :class="{refreshbtnclick: isrefresh}"
 				   @click="getrefresh"></uni-icons>
 	</view>
 </template>
@@ -20,7 +21,8 @@
 	export default {
 		data() {
 			return {
-				oneword: []
+				oneword: [],
+				isrefresh: false,
 			}
 		},
 		created() {
@@ -35,6 +37,7 @@
 				},2000)
 			},
 			getrefresh() {
+				this.isrefresh = true
 				this.getData()
 			},
 			//发送请求
@@ -45,6 +48,9 @@
 						if(res.data.code == 200){
 							this.oneword.push(res.data.data)
 							this.judgetype(res.data.data.type,i)
+							if(this.oneword.length===4){
+								this.isrefresh = false
+							}
 						}else {
 							uni.showModal({
 								content: res.data.msg,
@@ -120,5 +126,10 @@
 		z-index: 2;
 		right: 40rpx;
 		bottom: 60rpx;
+	}
+	
+	.refreshbtnclick {
+		transition: 2s;
+		transform: rotate(180deg);
 	}
 </style>

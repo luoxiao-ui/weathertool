@@ -45,41 +45,17 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
-    "plugin": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
       "list": []
     },
     "game": {
       "list": []
     },
-    "gamePlugin": {
-      "list": []
-    },
     "miniprogram": {
-      "list": [
-        {
-          "name": "pages/tool/index",
-          "pathName": "pages/tool/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/tool/rubbish/index",
-          "pathName": "pages/tool/rubbish/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/tool/createpoetry/index",
-          "pathName": "pages/tool/createpoetry/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/tool/QRcode/index",
-          "pathName": "pages/tool/QRcode/index",
-          "scene": null
-        }
-      ]
+      "list": []
     }
   }
 }

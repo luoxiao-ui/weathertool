@@ -12,6 +12,7 @@
 		           color="#0084f3"
 				   class="refreshbtn"
 				   size="40"
+				   :class="{refreshbtnclick: isrefresh}"
 				   @click="getrefresh"></uni-icons>
 	</view>
 </template>
@@ -21,7 +22,8 @@
 		data() {
 			return {
 				riddlelist: [],
-				exracolor: ''
+				exracolor: '',
+				isrefresh: false
 			}
 		},
 		onLoad() {
@@ -36,12 +38,16 @@
 				},2000)
 			},
 			getrefresh() {
+				this.isrefresh = true
 				this.getData()
 			},
 			getData() {
 				this.riddlelist = []
 				this.$request('riddle','GET').then(res=> {
 					this.riddlelist = res.data.data.data
+					if(this.riddlelist.length===10){
+						this.isrefresh = false
+					}
 					this.riddlelist = this.riddlelist.map(item=> {
 						this.$set(item,'riddleanswer','点击显示答案')
 						this.$set(item,'exracolor','')
@@ -63,5 +69,10 @@
 		z-index: 2;
 		right: 40rpx;
 		bottom: 60rpx;
+	}
+	
+	.refreshbtnclick {
+		transition: 2s;
+		transform: rotate(180deg);
 	}
 </style>

@@ -12,6 +12,7 @@
 		           color="#ffffff"
 				   class="refreshbtn"
 				   size="40"
+				   :class="{refreshbtnclick: isrefresh}"
 				   @click="getrefresh"></uni-icons>
 	</view>
 </template>
@@ -25,7 +26,8 @@
 			return {
 				imglist: '',
 				imgsrc: '',
-				isshow: false 
+				isshow: false,
+				isrefresh: false,
 			}
 		},
 		onLoad() {
@@ -40,13 +42,14 @@
 				},2000)
 			},
 			getrefresh() {
+				this.isrefresh = true
 				this.getData()
 			},
 			//放大图片
 			tomax(url){
 				this.isshow = true
 				this.imgsrc = url
-				console.log(this.isshow)
+				// console.log(this.isshow)
 			},
 			closemaximg() {
 				this.isshow = false
@@ -57,6 +60,9 @@
 					this.$request('acg', 'GET',{format: 'json'}).then(res=> {
 						if(res.data.code == 200){
 							this.imglist.push(res.data.data)
+							if(this.imglist.length===4){
+								this.isrefresh = false
+							}
 						}else {
 							uni.showModal({
 								content: res.data.msg,
@@ -102,5 +108,10 @@
 		z-index: 2;
 		right: 40rpx;
 		bottom: 60rpx;
+	}
+	
+	.refreshbtnclick {
+		transition: 2s;
+		transform: rotate(180deg);
 	}
 </style>

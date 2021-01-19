@@ -4,12 +4,13 @@
 		          :title="item.origin"
 		          :extra="item.author"
 				  :note="item.category">
-			{{item.content}}
+			<text selectable>{{item.content}}</text>
 		</uni-card>
 		<uni-icons type="loop"
 		           color="#0084f3"
 				   class="refreshbtn"
 				   size="40"
+				   :class="{refreshbtnclick: isrefresh}"
 				   @click="getrefresh"></uni-icons>
 	</view>
 </template>
@@ -18,7 +19,8 @@
 	export default {
 		data() {
 			return {
-				poetrymsg: []
+				poetrymsg: [],
+				isrefresh: false
 			}
 		},
 		onLoad() {
@@ -33,6 +35,7 @@
 				},2000)
 			},
 			getrefresh() {
+				this.isrefresh = true
 				this.getData()
 			},
 			getData() {
@@ -41,6 +44,9 @@
 					this.$request('shici','GET').then(res=> {
 						if(res.data.code == 200){
 							this.poetrymsg.push(res.data.data)
+							if(this.poetrymsg.length===4){
+								this.isrefresh = false
+							}
 						}else {
 							uni.showModal({
 								content: res.data.msg,
@@ -60,5 +66,10 @@
 		z-index: 2;
 		right: 40rpx;
 		bottom: 60rpx;
+	}
+	
+	.refreshbtnclick {
+		transition: 2s;
+		transform: rotate(180deg);
 	}
 </style>

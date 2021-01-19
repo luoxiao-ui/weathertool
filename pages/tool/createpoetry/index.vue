@@ -11,9 +11,9 @@
 				</view>
 			</view>
 			<view class="poetrymsgbox">
-				<text style="font-size: 34rpx;font-weight: 600;margin: 0 0 10rpx 0;">
+				<text style="font-size: 34rpx;font-weight: 600;margin: 0 0 10rpx 0;" selectable>
 					{{keywords}}</text>
-				<text v-for="(item,index) in poem" :key="index">{{item}}</text>
+				<text v-for="(item,index) in poem" :key="index" selectable>{{item}}</text>
 			</view>
 		</view>
 	</view>

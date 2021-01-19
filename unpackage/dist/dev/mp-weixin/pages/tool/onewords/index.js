@@ -2,7 +2,7 @@
 
 /***/ 29:
 /*!********************************************************************************************!*\
-  !*** C:/Users/zhao/Desktop/luo-weather/main.js?{"page":"pages%2Ftool%2Fonewords%2Findex"} ***!
+  !*** C:/Users/zhao/Desktop/weathertool/main.js?{"page":"pages%2Ftool%2Fonewords%2Findex"} ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18,7 +18,7 @@ createPage(_index.default);
 
 /***/ 30:
 /*!***********************************************************************!*\
-  !*** C:/Users/zhao/Desktop/luo-weather/pages/tool/onewords/index.vue ***!
+  !*** C:/Users/zhao/Desktop/weathertool/pages/tool/onewords/index.vue ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -59,7 +59,7 @@ component.options.__file = "pages/tool/onewords/index.vue"
 
 /***/ 31:
 /*!******************************************************************************************************************!*\
-  !*** C:/Users/zhao/Desktop/luo-weather/pages/tool/onewords/index.vue?vue&type=template&id=547be898&scoped=true& ***!
+  !*** C:/Users/zhao/Desktop/weathertool/pages/tool/onewords/index.vue?vue&type=template&id=547be898&scoped=true& ***!
   \******************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -81,7 +81,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 32:
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/zhao/Desktop/luo-weather/pages/tool/onewords/index.vue?vue&type=template&id=547be898&scoped=true& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/zhao/Desktop/weathertool/pages/tool/onewords/index.vue?vue&type=template&id=547be898&scoped=true& ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -94,10 +94,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   uniCard: function() {
-    return __webpack_require__.e(/*! import() | components/uni-card/uni-card */ "components/uni-card/uni-card").then(__webpack_require__.bind(null, /*! @/components/uni-card/uni-card.vue */ 90))
+    return __webpack_require__.e(/*! import() | components/uni-card/uni-card */ "components/uni-card/uni-card").then(__webpack_require__.bind(null, /*! @/components/uni-card/uni-card.vue */ 115))
   },
   uniIcons: function() {
-    return Promise.all(/*! import() | components/uni-icons/uni-icons */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-icons/uni-icons")]).then(__webpack_require__.bind(null, /*! @/components/uni-icons/uni-icons.vue */ 75))
+    return Promise.all(/*! import() | components/uni-icons/uni-icons */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-icons/uni-icons")]).then(__webpack_require__.bind(null, /*! @/components/uni-icons/uni-icons.vue */ 100))
   }
 }
 var render = function() {
@@ -115,7 +115,7 @@ render._withStripped = true
 
 /***/ 33:
 /*!************************************************************************************************!*\
-  !*** C:/Users/zhao/Desktop/luo-weather/pages/tool/onewords/index.vue?vue&type=script&lang=js& ***!
+  !*** C:/Users/zhao/Desktop/weathertool/pages/tool/onewords/index.vue?vue&type=script&lang=js& ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -131,13 +131,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 34:
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/zhao/Desktop/luo-weather/pages/tool/onewords/index.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/zhao/Desktop/weathertool/pages/tool/onewords/index.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
 //
 //
 //
@@ -159,7 +160,8 @@ __webpack_require__.r(__webpack_exports__);
 {
   data: function data() {
     return {
-      oneword: [] };
+      oneword: [],
+      isrefresh: false };
 
   },
   created: function created() {
@@ -174,6 +176,7 @@ __webpack_require__.r(__webpack_exports__);
       }, 2000);
     },
     getrefresh: function getrefresh() {
+      this.isrefresh = true;
       this.getData();
     },
     //发送请求
@@ -184,6 +187,9 @@ __webpack_require__.r(__webpack_exports__);
           if (res.data.code == 200) {
             _this.oneword.push(res.data.data);
             _this.judgetype(res.data.data.type, i);
+            if (_this.oneword.length === 4) {
+              _this.isrefresh = false;
+            }
           } else {
             uni.showModal({
               content: res.data.msg,
@@ -255,7 +261,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 35:
 /*!*********************************************************************************************************************************!*\
-  !*** C:/Users/zhao/Desktop/luo-weather/pages/tool/onewords/index.vue?vue&type=style&index=0&id=547be898&lang=scss&scoped=true& ***!
+  !*** C:/Users/zhao/Desktop/weathertool/pages/tool/onewords/index.vue?vue&type=style&index=0&id=547be898&lang=scss&scoped=true& ***!
   \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -271,7 +277,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 36:
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/zhao/Desktop/luo-weather/pages/tool/onewords/index.vue?vue&type=style&index=0&id=547be898&lang=scss&scoped=true& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/zhao/Desktop/weathertool/pages/tool/onewords/index.vue?vue&type=style&index=0&id=547be898&lang=scss&scoped=true& ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {

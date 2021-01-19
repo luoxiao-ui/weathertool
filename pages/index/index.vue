@@ -166,14 +166,14 @@
 						title: '加载中',
 						mask: true
 					})
-					console.log(res)
+					// console.log(res)
 					if(res.data.code == 200){
 						this.futuremsg = res.data.data.data
 					    this.futuremsg[0].index.map((item,index)=> {
 							this.items[index].text = item.title
 							this.items[index].tips = item.level
 						})
-						console.log(this.items)
+						// console.log(this.items)
 						uni.hideLoading()
 					}else {
 						uni.hideLoading()
