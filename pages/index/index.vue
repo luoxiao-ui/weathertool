@@ -173,7 +173,6 @@
 							this.items[index].text = item.title
 							this.items[index].tips = item.level
 						})
-						// console.log(this.items)
 						uni.hideLoading()
 					}else {
 						uni.hideLoading()
